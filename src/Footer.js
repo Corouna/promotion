@@ -70,7 +70,7 @@ class Footer extends React.Component {
             <Grid container spacing={24}>
               <div className='footer'>
                 <div className='copyright'>
-                  <span>© 2019 <img src="kiihoii_beta_250px_white.png" width="60" style={{ position:'relative', top: 6, marginLeft: 15, marginRight: 15 }} /> (Powered by KDCA Youth).</span>
+                  <span>© 2019 <img src="kiihoii_250px_white.png" width="60" style={{ position:'relative', marginLeft: 15, marginRight: 15 }} /> (Powered by KDCA Youth).</span>
                 </div>
               </div>
           </Grid>
