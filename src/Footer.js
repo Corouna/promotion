@@ -4,6 +4,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './fontface.css';
+import './index.css';
 
 // For styling for all components
 const styles = theme => ({
@@ -65,10 +66,10 @@ class Footer extends React.Component {
     const { classes } = this.props;
 
     return (
-        <div className={classes.root}>
+        <div className='footer_root'>
             <Grid container spacing={24}>
-              <div className={classes.footer}>
-                <div className={classes.copyright}>
+              <div className='footer'>
+                <div className='copyright'>
                   <span>© 2019 <img src="kiihoii_beta_250px_white.png" width="60" style={{ position:'relative', top: 6, marginLeft: 15, marginRight: 15 }} /> (Powered by KDCA Youth).</span>
                 </div>
               </div>

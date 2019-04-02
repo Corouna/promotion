@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import YoutubeBackground from 'react-youtube-background';
 import Footer from './Footer';
 import './fontface.css';
+import './index.css';
 
 // For styling for all components
 const styles = theme => ({
@@ -64,13 +65,13 @@ class Promo extends React.Component {
           aspectRatio='16:9'
           overlay='rgba(20, 20, 20, 0.85)'
         >
-          <div className={classes.promo}>
-            <div className={classes.promocontainer}>
-              <div className={classes.imgbox}>
+          <div className='promo'>
+            <div className='promocontainer'>
+              <div className='imgbox'>
                 <img className="brand" src="kiihoii_250px_white.png" width='450'/>
               </div>
-              <div className={classes.commentbox}>
-                <div className={classes.comment}>
+              <div className='commentbox'>
+                <div className='comment'>
                   Nantikan kemunculannya!
                 </div>
               </div>
